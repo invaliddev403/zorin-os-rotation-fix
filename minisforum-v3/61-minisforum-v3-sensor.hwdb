@@ -1,0 +1,4 @@
+# V3 orientation from upstream systemd hwdb; preserve other local sensor rules.
+# udev 255 sanitizes manufacturer parentheses to underscores during lookup.
+sensor:modalias:acpi:SMOCF05:*:dmi:*:svnMicroComputer*TechLimited:pnV3:*
+ ACCEL_MOUNT_MATRIX=-1, 0, 0; 0, -1, 0; 0, 0, 1
